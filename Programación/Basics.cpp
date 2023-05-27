@@ -4,7 +4,6 @@ using namespace std;
 //Estructura basica de un programa 001
 int main()
 {
-	cout << a << endl;
 	string salute = "Hello world";
 	cout << salute << endl;
 	salute = "GoodBye World!";
@@ -31,7 +30,7 @@ int variables()
 	
 }
 
-int constantes(){
+int constantes() {
   /*Enteros numericos*/
   int const octal{0113};
   int const ndecimal{75};
