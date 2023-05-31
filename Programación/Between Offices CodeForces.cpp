@@ -15,8 +15,7 @@ int main() {
 	n_seattle = 0;
 	n_sanfrancisco = 0;
 
-	for (int i = 0; i <= n_days; i++) {
-		if (i + 1 < n_days) {
+	for (int i = 0; i <= n_days-1; i++) {
 			if (capitals[i] == 'S') {
 				if (capitals[i + 1] == 'F') {
 					n_seattle++;
@@ -26,7 +25,6 @@ int main() {
 				if (capitals[i + 1] == 'S') {
 					n_sanfrancisco++;
 				}
-			}
 		}
 	}
 
