@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 	int n;
 	bool _isPrime = true;
+	int primes = 0;
 	cin >> n;
 
 	for (int i = n; i > 0; i--) {
@@ -20,8 +21,10 @@ int main() {
 
 		if (_isPrime == true) {
 			cout << i << " Prime" << '\n';
+			++primes;
 		}
 	}
 
+	cout << "Hay " << primes << " primos en un rango del 0-" << n << endl;
 	return 0;
 }
