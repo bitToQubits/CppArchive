@@ -20,10 +20,10 @@ int main() {
 /*Ejemplo de recursividad. Algoritmo para calcular factoriales*/
 
 long factorial(long a) {
-	if (a > 1) 
-	return (a * factorial(a-1));
-	else 
-	return 1;
+	if (a > 1)
+		return (a * factorial(a - 1));
+	else
+		return 1;
 }
 
 int main() {
@@ -32,3 +32,19 @@ int main() {
 	cout << n << "!= " << factorial(n);
 	return 0;
 }
+
+
+/*Factoriales, resuelto de manera iterativa*/
+
+/*
+int main() {
+	long n;
+	cin >> n;
+	
+	for (int i = n - 1; i >= 1; i--) {
+		n = n * i;
+	}
+
+	cout << n;
+}
+*/
