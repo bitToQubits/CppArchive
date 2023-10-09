@@ -3,12 +3,11 @@
 #include <vector>
 using namespace std;
 
-class Compare
-{
-public:
-    bool operator () (int a, int b){
-        return a < b;
-    }
+class Compare{
+    public: 
+        bool operator () (int a, int b){
+            return abs(a) > abs(b);
+        }
 };
 
 int main(){
@@ -18,6 +17,8 @@ int main(){
     prioridad.push(4);
     prioridad.push(-1);
     prioridad.push(5);
+    prioridad.push(-8);
+    prioridad.push(-9);
     prioridad.pop();
     cout << prioridad.top();
 }

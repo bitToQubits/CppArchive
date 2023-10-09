@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     //En verdad las pilas solo tienen tres funciones miembros que conozca:
-    //push, top y pop. una data structure mediocre
+    //push, top y pop. metodologia FILO
     stack<int>stackoverflow;
     stackoverflow.push(9);
     stackoverflow.push(1);
