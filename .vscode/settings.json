@@ -15,6 +15,7 @@
         "valarray": "cpp",
         "scoped_allocator": "cpp",
         "bitset": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "random": "cpp"
     }
 }
