@@ -16,6 +16,10 @@
         "scoped_allocator": "cpp",
         "bitset": "cpp",
         "utility": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "limits": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp"
     }
 }
